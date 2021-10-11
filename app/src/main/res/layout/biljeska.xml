@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/linear2"
+        android:id="@+id/imageView9"
+        android:layout_height="50dp"
+        android:foreground="@drawable/linear2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/dugme"
+            android:padding="7dp"
+            android:layout_marginTop="100dp"
+            android:id="@+id/l1">
+
+            <TextView
+                android:text="Ovo je proba za notes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15"
+                android:textColor="@android:color/background_light"
+                android:layout_margin="1dp" />
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/multiAutoCompleteTextView"
+                android:text="sdjasjdf sdjaskdj asjdlasjd fsajdjasi djsaid jasijdiasjidjas idjiasd jlasjdfsfjas  jdfskdm"
+                android:cursorVisible="true"
+                android:drawableBottom="@color/cardview_light_background"
+                android:textColorLink="@drawable/biljeske" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/edt1"
+                android:textColor="@android:color/background_light"
+
+                android:layout_margin="1dp"
+                android:layout_height="wrap_content"
+                android:textSize="10sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt2"
+                android:textColor="@android:color/background_light"
+                android:layout_margin="1dp"
+                android:textSize="10sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17"
+                android:textColor="@android:color/background_light"
+                android:layout_margin="1dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/textView28"
+                android:textColor="@android:color/background_light"
+                android:layout_margin="1dp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/textView20111"
+                android:textColor="@android:color/background_light"
+
+                android:layout_margin="1dp"
+                android:layout_height="15dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/textView16111"
+                android:textColor="@android:color/background_light"
+                android:layout_margin="1dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/textView1117"
+                android:textColor="@android:color/background_light"
+                android:layout_margin="1dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/textView28111"
+                android:textColor="@android:color/background_light"
+                android:layout_margin="1dp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/textView2011"
+                android:textColor="@android:color/background_light"
+
+                android:layout_margin="1dp"
+                android:layout_height="15dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/textView1611"
+                android:textColor="@android:color/background_light"
+                android:layout_margin="1dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/textView171"
+                android:textColor="@android:color/background_light"
+                android:layout_margin="1dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/textView218"
+                android:textColor="@android:color/background_light"
+                android:layout_margin="1dp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/textView202"
+                android:textColor="@android:color/background_light"
+
+                android:layout_margin="1dp"
+                android:layout_height="15dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/textView161"
+                android:textColor="@android:color/background_light"
+                android:layout_margin="1dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/textView117"
+                android:textColor="@android:color/background_light"
+                android:layout_margin="1dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/textView112"
+                android:textColor="@android:color/background_light"
+                android:layout_margin="1dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l2"
+            android:layout_marginBottom="419dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/dugme"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="Naslov :"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView36"
+                android:textColor="@android:color/background_light"
+                android:textSize="22sp"
+                android:layout_weight="1.08"
+                android:gravity="left|center"
+                android:layout_marginLeft="10dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editText12"
+                android:layout_weight="1.08"
+                android:hint="Biljeska1"
+                android:textColorHighlight="@android:color/background_light" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

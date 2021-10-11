@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/db"
+        android:title="dashboard"
+        android:icon="@android:drawable/ic_lock_power_off"
+        />
+    <item
+        android:id="@+id/predmeti"
+        android:title="Predmeti"
+        android:icon="@android:drawable/ic_lock_idle_alarm"
+
+        />
+    <item
+        android:id="@+id/biljeske"
+        android:title="Biljeske"
+        android:icon="?attr/actionModeShareDrawable"
+
+        />
+    <item
+        android:id="@+id/slike"
+        android:title="Slike"
+        android:icon="?android:attr/alertDialogIcon"
+
+        />
+    <item
+        android:id="@+id/fajlovi"
+        android:title="Fajlovi"
+        android:icon="@android:drawable/sym_def_app_icon"
+
+        />
+</menu>

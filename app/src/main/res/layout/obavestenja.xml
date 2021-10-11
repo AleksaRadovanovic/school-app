@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.prosjek.MainActivity"
+    android:background="@color/colorPrimary">
+
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/myRec"
+    android:layout_below="@+id/RelFilter" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@+id/RelTool"
+        android:id="@+id/RelFilter2"
+        android:visibility="gone">
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="27dp"
+            android:background="@drawable/dugme"
+            android:layout_height="44dp"
+            android:queryHint="Search"
+            android:id="@+id/searchView" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/RelFilter"
+        android:visibility="visible"
+        android:layout_below="@+id/RelFilter2"
+        android:layout_height="30dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:elevation="24dp"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.77"
+            android:id="@+id/linNovaObv">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                app:srcCompat="@drawable/notif1"
+                android:id="@+id/imageView36"
+                android:layout_height="match_parent"
+                android:background="@drawable/linear2"
+                android:padding="1dp"
+                android:alpha="0.86" />
+
+            <TextView
+                android:text="7 novih obavestenja"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView41"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="casual"
+                android:background="@drawable/linear2"
+                android:alpha="0.86" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/toolbar"
+        android:elevation="22dp"
+        android:layout_height="50dp"
+        android:id="@+id/RelTool">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_revert"
+            android:id="@+id/imgBck"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:text="Obavestenja"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView44"
+            android:layout_toRightOf="@+id/imgBck"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:layout_toLeftOf="@+id/imgSet" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_more"
+            android:id="@+id/imgSet"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentRight="true"
+            android:layout_margin="8dp"
+            android:padding="2dp" />
+    </RelativeLayout>
+
+    </RelativeLayout>
